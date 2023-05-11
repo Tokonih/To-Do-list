@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+  }
+  input[type='text'] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mainDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .innerDiv {
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .delete {
+    background-color: rgb(238, 34, 34);
+  }
+  
+  .edit {
+    background-color: dodgerblue;
+  }
+  
+  .lineThrough{
+  text-decoration: line-through;
+  color: red;
+  font-style: italic;
+  text-transform: uppercase;
+  } 
+  
